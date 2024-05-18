@@ -1,0 +1,9 @@
+apple	tao
+banana	chuoi
+bomb	bom
+bush	cay
+cat	meo
+class	lop
+dog	cho
+hello	chao
+hi	chao (informal)

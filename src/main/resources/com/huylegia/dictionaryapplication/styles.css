@@ -1,0 +1,104 @@
+.labelShow{
+    -fx-background-color: #4db6ac;
+}
+.tab-pane {
+    -fx-padding: 0 -1 -1 0
+}
+.tab-pane:left *.tab-header-area
+{
+    -fx-background-insets: 0, 0 0 10;
+    -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+}
+.tab{
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+    -fx-padding: 0 10 0 10;
+}
+.tab:selected
+{
+    -fx-background-color: #F2FEFA;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #05D39B;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #b2dfdb;
+}
+.list-cell {
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #e0f2f1;
+}
+#tabSearch:selected *{
+    -fx-image: url("img/magnifying-glass1.png");
+    -fx-border-width: 0 0 0 0;
+}
+#iconSearch{
+    -fx-image: url("img/magnifying-glass.png");
+}
+#tabHistory:selected *{
+    -fx-image: url("./img/history.png");
+    -fx-border-width: 0 0 0 0;
+}
+#iconHistory{
+    -fx-image: url("img/history1.png");
+}
+#tabFavorite:selected *{
+    -fx-image: url("img/star-shape.png");
+    -fx-border-width: 0 0 0 0;
+}
+#iconFavorite{
+    -fx-image: url("img/star-shape2.png");
+}
+#tabTranslate:selected *{
+    -fx-image: url("img/language1.png");
+    -fx-border-width: 0 0 0 0;
+}
+#iconTranslate{
+    -fx-image: url("img/language.png");
+}
+#tabEdit:selected *{
+    -fx-image: url("img/office-material.png");
+    -fx-border-width: 0 0 0 0;
+}
+#iconEdit{
+    -fx-image: url("img/inclined-pencil.png");
+}
+#tabSetting:selected *{
+    -fx-image: url("img/settings1.png");
+    -fx-border-width: 0 0 0 0;
+}
+#iconSetting{
+    -fx-image: url("img/settings.png");
+}
+#buttonFavorite{
+    -fx-image: url("img/star-shape2.png");
+}
+#buttonFavorite:selected *{
+    -fx-image: url("img/star-shape.png");
+}
+#tabAdd:selected *{
+    -fx-border-width: 0 0 0 0;
+}
+#tabRemove:selected *{
+    -fx-border-width: 0 0 0 0;
+}
+#tabEdit2:selected *{
+    -fx-border-width: 0 0 0 0;
+}
+
+/*.toggle-button {*/
+/*    !*-fx-background-size: 18px;*!*/
+/*    -fx-background-color: inherit;*/
+/*    -fx-background-image: url("Icon/inactive.png");*/
+/*    -fx-background-repeat: no-repeat;*/
+/*    -fx-background-position: center;*/
+/*}*/
+/*.toggle-button:selected {*/
+/*    -fx-background-image: url("Icon/active.png");*/
+/*}*/
